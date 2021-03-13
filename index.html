@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="proc" class="text"> </div>
+    <img src="./assets/images/stay.jpg">
+
+    <div class="text">
+    <div>First Name: <span id="firstName">Nicolai</span></div>
+    <div>Last Name: <span id="lastName">Hartmann</span></div>
+    <div>Gender: <span id="gender"></span></div>
+    <div>Age: <span id="age"></span></div>
+    <div>Calories: <span id="calories"></span></div>
+    <div>---</div>
+    <div>Time to sleep: <span id="sleep"></span></div>
+    </div>
+
+    <div class="multi-button">
+        <button id="sleep" onclick="human.sleepFor()">sleep</button>
+        <button onclick="human.feed()">feed</button>
+        <button onclick="fly()" style="display: none;" id="sec">fly</button>
+        <button onclick="fight()" style="display: none;" id="sec1">fight</button>
+    </div>
+
+</div>
+      <div class="multi-button">
+        <button id="text" onclick="stay()">Super Hartmann</button>
+      </div>
+    </div>
+
+      <!-- Прокрутка: <span id="delta">0</span> -->
+
+<!-- <script>
+function daivalue (id) {
+var value = document.getElementById(id).value;
+document.getElementById('sleep').value = value;
+}
+</script> -->
+
+
+<!-- <input type="button" id="btn" value="нажмите" >
+<form name='form1'>
+    <input type="button" id="btn" value="нажмите">
+    </form>-->
+
+
+
+</body>
+</html>
